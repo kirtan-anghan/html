@@ -1,17 +1,23 @@
-#main_nav {
+/* #main_nav {
     position: absolute;
     right: 30px;
     top: 40px;
-}
+} */
 
-#main_nav li {
-    float: left;
-    margin-left: 2px;
+/* #main_nav li {
+    float: right;
+    margin-left: 3px;
+} */
+#main_nav li a {
+
+    background-color: rgb(21, 78, 153);
+    
 }
 
 #main_nav li a {
-    font-size: 16px;
-    color: #fff;
+    font-size: 25px;
+    
+    color: rgb(245, 242, 242);
     text-decoration: none;
     padding: 8px 15px;
     -moz-border-radius: 7px;
@@ -19,7 +25,7 @@
     border-radius: 7px;
 }
 
-#main_nav li a.active,
+#main_nav li :active,
 #main_nav li a:hover {
-    background-color: #0b86cb;
+    background-color: #70be17;
 }
