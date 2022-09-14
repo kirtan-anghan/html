@@ -1,24 +1,27 @@
-/* #main_nav {
+#main_nav {
     position: absolute;
-    right: 30px;
-    top: 40px;
-} */
+    right: 20px;
+}
+*{
+margin: 2px;
+padding: 3px;
+}
+.nav-menu > ul > li {
+    position: relative;
+    white-space: nowrap;
+  }
+.nav-menu{
+    list-style: none;
+}
 
-/* #main_nav li {
-    float: right;
-    margin-left: 3px;
-} */
 #main_nav li a {
 
     background-color: rgb(21, 78, 153);
     
 }
 
-#main_nav li{
-    list-style-type: space-counter;
-}
 
-#main_nav li a {
+#main_nav li a{
     font-size: 25px;
     
     color: rgb(245, 242, 242);
