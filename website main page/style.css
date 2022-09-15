@@ -25,10 +25,10 @@ padding: 3px;
     font-size: 25px;
     
     color: rgb(245, 242, 242);
-    text-decoration: none;
+    /* text-decoration: none; */
     padding: 8px 15px;
-    -moz-border-radius: 7px;
-    -webkit-border-radius: 7px;
+    /* -moz-border-radius: 7px;
+    -webkit-border-radius: 7px; */
     border-radius: 7px;
 }
 
