@@ -61,8 +61,11 @@ background: linear-gradient(to bottom right, #fe0a0a, #0017c5)
 
 }
 
-
+#git{
+    text-decoration: none;
+}
 
 #test{
     margin: 200px 0 0 300px;
+    
 }
