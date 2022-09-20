@@ -1,6 +1,6 @@
 
 *{
-    margin: 0;
+    margin: 10px;
     padding: 0;
 }
 
@@ -45,11 +45,15 @@ body{
     /* box-sizing: content-box; */
 /* box-sizing: border-box; */
 }
+a.github:link{
+    color: blue;
+}
 a.github:hover{
     color: white;
   }
   a.insta:hover{
     font-size: 150%;
+    color: aqua;
   }
 #link{
     text-decoration: none;
