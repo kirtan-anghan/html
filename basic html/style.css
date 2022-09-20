@@ -45,9 +45,9 @@ body{
     /* box-sizing: content-box; */
 /* box-sizing: border-box; */
 }
-a.github:link{
-    color: blue;
-}
+/* a.github:link{
+    
+} */
 a.github:hover{
     color: white;
   }
