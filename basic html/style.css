@@ -26,9 +26,10 @@ span {
 
 }
 body{
-    background:  url(wallpaperflare-cropped.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient( to top left , rgb(64, 141, 9),rgb(22, 92, 132));
+
+  height: 100vh;
+    
     
 
 }
@@ -44,11 +45,17 @@ body{
     /* box-sizing: content-box; */
 /* box-sizing: border-box; */
 }
-a:hover {
+a.github:hover{
     color: white;
+  }
+  a.insta:hover{
+    font-size: 150%;
   }
 #link{
     text-decoration: none;
 color: black;
 font-size: 25px;
+}
+.ins{
+   
 }
