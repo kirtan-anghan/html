@@ -2,21 +2,18 @@
     margin: 0;
     padding: 0;
 }
-/* .menu{
-    background-color: aqua;
-
-    height: 50vh;
-  
-   
-    
-   
-} */
+.menu{ 
+    text-align: center;
+}
 .menulist{
     list-style: none;
-    align-items: center;
 height: 20vh;
-display: flex;
+width: 100vw;
+display: flex; 
+align-items: center;
 background-color: aqua;
+justify-content: center;
+
 }
 .menulist li{
 font-size: 30px;
