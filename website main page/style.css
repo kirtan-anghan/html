@@ -8,15 +8,17 @@ body{
     font-family: sans-serif;
     font-size: x-large;
     color: rgb(7, 7, 7);
-   
+
     font-style: italic;
+
 }
 .menu{
     background-color: rgba(0, 255, 255, 0.81);
     height: 60px;
     width: 100vw;
-    position: fixed;
-    
+    position:  sticky ;
+/* position: fixed;     */
+top: 0;
 }
 .nav-menu li {
     
@@ -70,13 +72,11 @@ body{
 
 
 background: linear-gradient(to bottom right, #fe0a0a, #0017c5);
-height: 100vh;
+height: 100%;
 }
 
 #git{
     text-decoration: none;
 }
-#test{
-    margin-top: 70px;
-}
+
 

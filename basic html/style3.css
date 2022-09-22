@@ -3,16 +3,23 @@
     padding: 0;
 }
 .menu{ 
+    
     text-align: center;
+}
+.heder{
+    position: sticky;
+    top: 0px;
 }
 .menulist{
     list-style: none;
-height: 20vh;
+height: 10vh;
 width: 100vw;
 display: flex; 
 align-items: center;
 background-color: aqua;
 justify-content: center;
+
+
 
 }
 .menulist li{
