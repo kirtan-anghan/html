@@ -4,14 +4,14 @@ div {
     background: red;
     /* position: relative; */
     position: absolute;
-    animation: myfirst 5s 2;
+    animation: myfirst infinite;
     /* animation-direction: alternate; */
   }
   
   @keyframes myfirst {
-    0%   {background: red; left: 0px; top: 0px;}
-    25%  {background: yellow; left: 200px; top: 0px;}
-    50%  {background: blue; left: 200px; top: 200px;}
-    75%  {background: green; left: 0px; top: 200px;}
+    0%   {background: red; left: 0vw; top: 0vw;}
+    25%  {background: yellow; left: 100vw; top: 0vw;}
+    50%  {background: blue; left: 90vw; top: 90vw;}
+    75%  {background: green; left: 0vw; top: 90vh;}
     100% {background: red; left: 0px; top: 0px;}
   }
