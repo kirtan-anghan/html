@@ -18,30 +18,28 @@ div {
 }
 
 .progress__text {
-    position: absolute;
-    top: 50%;
-    right: 5px;
-    transform: translateY(-50%);
-    font: bold 14px "Quicksand", sans-serif;
-    color: #ffffff;
-  }
-  
-.progress{
-    background-color: #1A2929;
-    opacity: 0.9;
-    
-    animation: motion 2.5s infinite alternate ease-in-out ;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  font: bold 14px "Quicksand", sans-serif;
+  color: #ffffff;
 }
 
+.progress {
+  background-color: #1a2929;
+  opacity: 0.9;
 
-    @keyframes motion {
-        0%{
-            width: 0%;
-  
-            background-color: #77b0b0;
-        }
-        100%{
-            width: 100%;
-        }
-    }
+  animation: motion 2.5s infinite alternate ease-in-out;
+}
 
+@keyframes motion {
+  0% {
+    width: 0%;
+
+    background-color: #77b0b0;
+  }
+  100% {
+    width: 100%;
+  }
+}
