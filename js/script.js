@@ -245,23 +245,23 @@ GOOD LUCK 😀
 // Type Conversion and Coercion
 
 // type conversion
-const inputYear = '1991';
-console.log(Number(inputYear), inputYear);
-console.log(Number(inputYear) + 18);
+// const inputYear = '1991';
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
 
-console.log(Number('Jonas'));
-console.log(typeof NaN);
+// console.log(Number('Jonas'));
+// console.log(typeof NaN);
 
-console.log(String(23), 23);
+// console.log(String(23), 23);
 
-// type coercion
-console.log('I am ' + 23 + ' years old');
-console.log('23' - '10' - 3);
-console.log('23' / '2');
+// // type coercion
+// console.log('I am ' + 23 + ' years old');
+// console.log('23' - '10' - 3);
+// console.log('23' / '2');
 
-let n = '1' + 1111; // '11'
-n = n - 1;
-console.log(n);
+// let n = '1' + 1111; // '11'
+// n = n - 1;
+// console.log(n);
 
 
 
@@ -306,6 +306,9 @@ console.log(n);
 // const favourite = Number(prompt("What's your favourite number?"));
 // console.log(favourite);
 // console.log(typeof favourite);
+// const hello = alert("this is alert")
+
+// const hello1 = (prompt(hello));  
 
 // if (favourite === 23) { // 22 === 23 -> FALSE
 //   console.log('Cool! 23 is an amzaing number!')
@@ -319,20 +322,26 @@ console.log(n);
 
 // if (favourite !== 23) console.log('Why not 23?');
 
+// const number = Number(prompt('enter your favorite number '));
+// console.log(number);
+
+
 // ////////////////////////////////////
-// // Logical Operators
+// Logical Operators
 // const hasDriversLicense = true; // A
-// const hasGoodVision = true; // B
+// const hasGoodVision = false; // B
 
 // console.log(hasDriversLicense && hasGoodVision);
 // console.log(hasDriversLicense || hasGoodVision);
 // console.log(!hasDriversLicense);
 
-// // if (hasDriversLicense && hasGoodVision) {
-// //   console.log('Sarah is able to drive!');
-// // } else {
-// //   console.log('Someone else should drive...');
-// // }
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log('Sarah is able to drive!');
+// } else {
+//   console.log('Someone else should drive...');
+// }
+
+
 
 // const isTired = false; // C
 // console.log(hasDriversLicense && hasGoodVision && isTired);
