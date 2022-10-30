@@ -3,11 +3,11 @@
 
 // ///////////////////////////////////////
 // // Activating Strict Mode
-let hasDriversLicense = false;
-const passTest = true;
+// let hasDriversLicense = false;
+// const passTest = true;
 
-if (passTest) hasDriversLicense = true;
-if (hasDriversLicense) console.log('I can drive :D');
+// if (passTest) hasDriversLicense = true;
+// if (hasDriversLicense) console.log('I can drive :D');
 
 // // const interface = 'Audio';
 // // const private = 534;
@@ -26,7 +26,9 @@ if (hasDriversLicense) console.log('I can drive :D');
 
 // function fruitProcessor(apples, oranges) {
 //   const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
-//   return juice;
+//   const fruit = `hello this is apple number ${apples} `
+ 
+//   return {juice, fruit};
 // }
 
 // const appleJuice = fruitProcessor(5, 0);
@@ -35,23 +37,23 @@ if (hasDriversLicense) console.log('I can drive :D');
 // const appleOrangeJuice = fruitProcessor(2, 4);
 // console.log(appleOrangeJuice);
 
-// const num = Number('23');
+// // const num = Number('23');
 
 
-// ///////////////////////////////////////
-// // Function Declarations vs. Expressions
+// // ///////////////////////////////////////
+// // // Function Declarations vs. Expressions
 
-// // Function declaration
+// // // Function declaration
 // function calcAge1(birthYeah) {
-//   return 2037 - birthYeah;
+//   return 2022 - birthYeah;
 // }
-// const age1 = calcAge1(1991);
+// const age1 = calcAge1(1981);
 
 // // Function expression
 // const calcAge2 = function (birthYeah) {
-//   return 2037 - birthYeah;
+//   return 2022 - birthYeah;
 // }
-// const age2 = calcAge2(1991);
+// const age2 = calcAge2(1979);
 
 // console.log(age1, age2);
 
