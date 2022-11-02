@@ -13,6 +13,7 @@
 // // const private = 534;
 
 
+
 // ///////////////////////////////////////
 // // Functions
 // function logger() {
@@ -59,7 +60,7 @@
 
 
 // ///////////////////////////////////////
-// // Arrow functions
+// // // Arrow functions
 
 // const calcAge3 = birthYeah => 2037 - birthYeah;
 // const age3 = calcAge3(1991);
@@ -72,7 +73,8 @@
 //   return `${firstName} retires in ${retirement} years`;
 // }
 
-// console.log(yearsUntilRetirement(1991, 'Jonas')); console.log(yearsUntilRetirement(1980, 'Bob'));
+// console.log(yearsUntilRetirement(1991, 'Jonas')); 
+// console.log(yearsUntilRetirement(1980, 'Bob'));
 
 
 // ///////////////////////////////////////
