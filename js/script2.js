@@ -65,21 +65,21 @@
 // ///////////////////////////////////////
 // // // Arrow functions
 
-const calcAge3 = birthYeah => 2037 - birthYeah;
-const age3 = calcAge3(1991);
-console.log( `${age3} ` );
-console.log(age3);
-console.log( `age of kirtan is  ${calcAge3(2004)} `);
+// const calcAge3 = birthYeah => 2037 - birthYeah;
+// const age3 = calcAge3(1991);
+// console.log( `${age3} ` );
+// console.log(age3);
+// console.log( `age of kirtan is  ${calcAge3(2004)} `);
 
-const yearsUntilRetirement = (birthYeah, firstName) => {
-  const age = 2037 - birthYeah;
-  const retirement = 65 - age;
-  // return retirement;
-  return `${firstName} retires in ${retirement} years`;
-}
+// const yearsUntilRetirement = (birthYeah, firstName) => {
+//   const age = 2037 - birthYeah;
+//   const retirement = 65 - age;
+//   // return retirement;
+//   return `${firstName} retires in ${retirement} years`;
+// }
 
 // console.log(yearsUntilRetirement(1991, 'Jonas')); 
-// console.log(yearsUntilRetirement(1980, 'Bob'));
+// console.log(yearsUntilRetirement(1980)); // this is also valid but it return //undefined for name.
 
 
 // ///////////////////////////////////////
@@ -88,14 +88,20 @@ const yearsUntilRetirement = (birthYeah, firstName) => {
 //   return fruit * 4;
 // }
 
-// function fruitProcessor(apples, oranges) {
+// function fruitProcessor(apples, oranges, orange) {
 //   const applePieces = cutFruitPieces(apples);
 //   const orangePieces = cutFruitPieces(oranges);
+//   const orangePiece = cutFruitPieces(orange);
 
-//   const juice = `Juice with ${applePieces} piece of apple and ${orangePieces} pieces of orange.`;
+//   const juice = `Juice with ${applePieces} piece of apple and ${orangePieces} pieces of orange. ${orangePiece}`;
 //   return juice;
 // }
-// console.log(fruitProcessor(2, 3));
+// console.log(fruitProcessor(2, 3 )); //////////if we are not enter any number in the function so that are return "NaN" value 
+
+
+// ///////////////////////////////////////
+// done by kirtan💙 23 nov 2022 2:19am
+// ///////////////////////////////////////
 
 
 // ///////////////////////////////////////
